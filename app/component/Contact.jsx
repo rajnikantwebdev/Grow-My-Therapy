@@ -4,10 +4,10 @@ import OfficeInfo from './OfficeInfo'
 
 const Contact = () => {
   return (
-    <div className="md:flex flex-row-reverse mx-auto py-6 md:py-12 justify-between items-center max-w-5xl px-5 space-y-8 md:space-y-0">
+    <section id='contact' className="md:flex flex-row-reverse mx-auto py-6 md:py-12 justify-between items-center max-w-5xl px-5 space-y-8 md:space-y-0">
       <ContactForm />
       <OfficeInfo />
-    </div>
+    </section>
   );
 }
 

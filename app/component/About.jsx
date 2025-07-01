@@ -8,6 +8,7 @@ const notoSans = Noto_Sans({
 export default function AboutSection() {
   return (
     <section
+      id="about"
       className={`bg-main py-16 px-4 sm:px-6 text-main-text lg:px-42 ${notoSans.className}`}
     >
       <div className="max-w-7xl mx-auto">

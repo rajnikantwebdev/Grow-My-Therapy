@@ -24,7 +24,7 @@ export default function FAQComponent() {
   };
 
   return (
-    <section className="bg-main py-16 px-4 text-main-text">
+    <section id="faq" className="bg-main py-16 px-4 text-main-text">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold  mb-4">
           Frequently Asked Questions
