@@ -24,21 +24,20 @@ export default function FAQComponent() {
   };
 
   return (
-    <section className="bg-main py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
+    <section className="bg-main py-16 px-4">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-teal-900 mb-4">
           Frequently Asked Questions
         </h2>
-        <div className="w-full h-px bg-gray-600 mb-12"></div>
 
         <div className="space-y-0">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-600">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full py-8 flex items-center justify-between text-left hover:bg-gray-50 hover:bg-opacity-20 transition-colors duration-200"
+                className="w-full py-8 flex items-center justify-between text-left cursor-pointer transition-colors duration-200"
               >
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-800 pr-4">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-teal-900 hover:text-teal-900/80 pr-4">
                   {faq.question}
                 </h3>
                 <div className="flex-shrink-0">

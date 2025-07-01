@@ -10,19 +10,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.noto-sans-300 {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
-}
-
-.noto-sans-400 {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
-}

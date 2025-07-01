@@ -4,11 +4,11 @@ import OfficeInfo from './OfficeInfo'
 
 const Contact = () => {
   return (
-    <div className='bg-main flex w-full justify-between items-center lg:px-30'>
-        <OfficeInfo/>
-        <ContactForm />
+    <div className="md:flex flex-row-reverse mx-auto py-6 md:py-12 justify-between items-center max-w-5xl px-5 space-y-8 md:space-y-0">
+      <ContactForm />
+      <OfficeInfo />
     </div>
-  )
+  );
 }
 
 export default Contact

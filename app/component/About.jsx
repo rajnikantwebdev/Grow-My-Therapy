@@ -1,8 +1,13 @@
 import Image from "next/image";
+import { Noto_Sans } from "next/font/google";
+
+const notoSans = Noto_Sans({
+  subsets:['latin']
+})
 
 export default function AboutSection() {
   return (
-    <section className="bg-main py-16 px-4 sm:px-6 lg:px-42">
+    <section className={`bg-main py-16 px-4 sm:px-6 lg:px-42 ${notoSans.className}`}>
       <div className="max-w-7xl mx-auto">
         <div className="flex  flex-col lg:flex-row items-center lg:items-center gap-8 lg:gap-16">
           <div className="flex-shrink-0 border-12 border-gray-200/50 rounded-xl">
@@ -33,7 +38,7 @@ export default function AboutSection() {
               Hi I'm Dr. Serena Blake
             </h2>
 
-            <div className="space-y-6 text-2xl noto-sans-300 text-gray-700 leading-relaxed">
+            <div className="space-y-6  text-xl md:text-2xl text-gray-700 leading-relaxed">
               <p>
                 <b>Dr. Serena Blake</b> is a licensed clinical psychologist
                 (PsyD) based in Los Angeles, CA, with eight years of experience
