@@ -5,7 +5,7 @@
 }
 
 .hero-section{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://main.d1hiqvipguwtuq.amplifyapp.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-b.79c9c9cd.jpg&w=3840&q=75");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://main.d1hiqvipguwtuq.amplifyapp.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-b.79c9c9cd.jpg&w=3840&q=75");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +15,14 @@
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.noto-sans-400 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }

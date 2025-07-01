@@ -1,14 +1,16 @@
 "use client"
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <nav className="bg-gray-50 border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-30 border border-black bg-[#FFF0EC]">
-        <div className="flex items-center justify-between py-3">
-          <div className="flex items-center w-full justify-between text-sm text-gray-700">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-30 border border-black bg-[#FFF0EC] py-2">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center w-full justify-between noto-sans-400 text-sm text-gray-700">
             <div className="flex items-center">
               <svg
                 className="w-4 h-4"
@@ -63,43 +65,43 @@ export default function Navigation() {
               />
             </div>
 
-            <div className="hidden lg:flex items-center space-x-8">
-              <a
+            <div className="hidden lg:flex items-center space-x-8 text-lg">
+              <Link
                 href="#services"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 Services
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#about"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 About
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#testimonials"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 Testimonials
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#rates"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 Rates & FAQs
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#areas"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 Areas Served
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#contact"
-                className="text-gray-700 hover:text-teal-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-teal-600  transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </div>
 
             <div className="lg:hidden">
