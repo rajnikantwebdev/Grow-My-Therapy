@@ -7,7 +7,9 @@ const notoSans = Noto_Sans({
 
 export default function AboutSection() {
   return (
-    <section className={`bg-main py-16 px-4 sm:px-6 lg:px-42 ${notoSans.className}`}>
+    <section
+      className={`bg-main py-16 px-4 sm:px-6 text-main-text lg:px-42 ${notoSans.className}`}
+    >
       <div className="max-w-7xl mx-auto">
         <div className="flex  flex-col lg:flex-row items-center lg:items-center gap-8 lg:gap-16">
           <div className="flex-shrink-0 border-12 border-gray-200/50 rounded-xl">
@@ -30,15 +32,15 @@ export default function AboutSection() {
           </div>
 
           <div className="flex-1 max-w-4xl">
-            <div className="inline-block bg-yellow-100 rounded-xl text-gray-800 px-4 py-1 text-sm font-medium mb-4">
+            <div className="inline-block bg-yellow-100 rounded-xl  px-4 py-1 text-sm font-medium mb-4">
               About Dr. Serena Blake, PsyD (Clinical Psychologist), CA
             </div>
 
-            <h2 className="md:text-5xl text-4xl font-bold text-gray-800 mb-8 leading-tight">
+            <h2 className="md:text-5xl text-4xl font-bold  mb-8 leading-tight">
               Hi I'm Dr. Serena Blake
             </h2>
 
-            <div className="space-y-6  text-xl md:text-2xl text-gray-700 leading-relaxed">
+            <div className="space-y-6  text-xl md:text-2xl leading-relaxed">
               <p>
                 <b>Dr. Serena Blake</b> is a licensed clinical psychologist
                 (PsyD) based in Los Angeles, CA, with eight years of experience

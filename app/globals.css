@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-main: #b5dbdf
+  --color-main: #b5dbdf;
+  --color-main-text: #1E4145
 }
 
 .hero-section{

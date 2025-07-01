@@ -80,7 +80,7 @@ export default function ContactForm() {
       <div className="mx-auto max-w-[26rem]">
         <div className="bg-white rounded-2xl border-2 border-gray-300 p-6">
           <div className="text-center mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold text-teal-700 mb-2">
+            <h2 className="text-xl sm:text-2xl font-bold text-main-text mb-2">
               Get In Touch
             </h2>
             <p className="text-gray-600 text-sm leading-relaxed">
